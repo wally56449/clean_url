@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>URL 清理器</title>
+  <script type="module" src="popup.js" defer></script>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 300px; }
+    input, button { width: 100%; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h3>清理並還原網址</h3>
+  <input id="urlInput" type="text" placeholder="貼上網址" />
+  <button id="processBtn">處理網址</button>
+  <p>結果：</p>
+  <textarea id="output" rows="4" readonly></textarea>
+</body>
+</html>
